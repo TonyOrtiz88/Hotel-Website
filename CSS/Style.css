@@ -5,15 +5,30 @@
     box-sizing: border-box
 }
 
-/*Utility*/
+/*utility*/
 a {
     text-decoration: none;
 }
-.container {
-    
+
+/*Navbar*/
+nav {
+    background: #333;
+    overflow: auto;
 }
-/*Nav Bar*/
-nav ul { float: right;
 
+nav h1 {
+    float: left;
 
+}
+nav a {
+    color: white
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
 }
