@@ -10,6 +10,14 @@ a {
     text-decoration: none;
 }
 
+body {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.clr{
+    clear: both;
+}
+
 h1, h2, h3 {
     padding-bottom: 20px; 
 }
@@ -151,4 +159,10 @@ nav ul li a.current, nav ul li a:hover {
     width: 33.3%;
     padding: 50px;
     text-align: center
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
 }
