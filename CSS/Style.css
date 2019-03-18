@@ -227,6 +227,35 @@ min-height: 100%;
     opacity: 0.8;
 }
 
+
+.sheet-form{
+    align-self: auto;
+    max-width: 100px;
+    
+    
+}
+
+.con-main * {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.con-main {
+    font-size: 40px;
+    line-height: 1.5;
+}
+
+.con-main h1{
+    
+    padding-bottom: 20px;
+}
+
+.input-place{
+    max-width: 50%;
+}
+max
+
 /* Footer */
 footer {
     text-align: center;
