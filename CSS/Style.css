@@ -6,6 +6,11 @@
 }
 
 /*utility*/
+
+.form-group {
+    margin-bottom: 20px;
+}
+
 a {
     text-decoration: none;
 }
@@ -55,11 +60,17 @@ p {
 
 .bttn {
     display: inline-block;
-    font-size: 18;
+    font-size: 18px;
     color: white;
     background: #333;
-    padding: 13 20px;
+    padding: 13px 20px;
+    border: none;
     cursor: pointer;
+}
+
+.btt:hover {
+    background: mediumaquamarine;
+    color: #333;
 }
 
 .bttn-light {
@@ -229,9 +240,35 @@ min-height: 100%;
     opacity: 0.8;
 }
 
+
 /* Contact Form */
 
-.sheet-form{
+#contact-form h1 {
+    font-size: 40px;
+    line-height: 1.2em;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px; 
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px mediumaquamarine solid;
+}
+
+#contact-form textarea {
+    height: 200px;
+}
+
+#contact-form input:focus, #contact-form textarea:focus {
+    outline: none;
+    border-color: gold; 
+}
+
+/*.sheet-form{
     margin-bottom: 20px;
     display: block;
     box-sizing: border-box;
@@ -264,10 +301,12 @@ min-height: 100%;
     line-height: 1.2;
     padding-bottom: 20px;
 }
-max
+max */
 
 /* Footer */
 footer {
     text-align: center;
     padding: 20px;
+    background: #333;
+    color: white;
 }

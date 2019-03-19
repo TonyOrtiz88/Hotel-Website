@@ -19,28 +19,52 @@
                 <ul>
                    <li><a href="index.html">Home</a></li> 
                    <li><a href="about.html">About</a></li> 
-                   <li><a class="current" href="contact.html">Contact</a></li> 
+                   <li><a class="current" href="in class con.html">Contact</a></li> 
                 </ul>
             </div>
         </nav>
         </section>
 </header>
- <section id="contact-form" class="py-3" >
+<section id="contact-form" class="py-3" >
     <div class="cont">
         <h1><span class="text-prime">Contact</span> Us</h1>
-    </div>
-    <div class="cont">
-     <p>Please fill out the form below to contact us</p>
-     </div>
-     <form action="">
-            <div class="form">
-                <label for="name">name</label>
-                <input type="text"> 
-
+        <p>Please fill out the form below to contact us</p>
+        <form>  
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
             </div>
-     </form>
-     <div>
-
-     </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" ></textarea>
+            </div>
+            <Button class="bttn">Submit</Button>
+        </form>
+    </div>
+</section>
+<section id="features">
+        <div class="bn bg-dark">
+            <i class="fas fa-hotel fa-3x  text-prime"></i>
+            <h3 class="py-2">Location</h3>
+            <p>88 Warren St, Roxbury, Ma</p>
+        </div>
+                <div class="bn bg-dark">
+                    <i class="fas fa-phone-square fa-3x icn-gld"></i>
+                    <h3 class="py-2">Phone Number</h3>
+                    <p>(857)763-5555</p>
+                </div>
+                        <div class="bn bg-dark">
+                            <i class="fas fa-envelope fa-3x  text-prime"></i>  
+                            <h3 class="py-2">Email Address</h3>
+                            <p>info@hoteldhs.com</p>
+                        </div>
+</section> 
+    <footer>
+        <p>Hotel DH&S &copy; 2019, All Rights Reserved </p>
+    </footer> 
 </body>
 </html>
